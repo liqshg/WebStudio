@@ -6,6 +6,27 @@
     box-sizing: border-box;
 }
 
+.header{
+    width: 100%;
+    min-width: 1170px;
+    margin: 0 auto;
+}
+
+.header_container{
+    width: 100%;
+    max-width: 519px;
+}
+
+.header_container--nav{
+    width: 100%;
+    max-width: 281;
+}
+
+.header_content{
+    width: 100%;
+    max-width: 307px;
+}
+
 .header_container--nav--link{
     font-family: Roboto;
     font-weight: 500;
@@ -114,11 +135,33 @@
     letter-spacing: 3%;
     text-align: center;
     color: #212121;
+    padding-top:94px ;
+    margin-bottom: 50px;
+}
+
+.team_container{
+    width: 100%;
+    max-width:1170px ;
+    margin: 0 auto;
+    padding-bottom: 94px;
+    display: flex;
+}
+
+.team_container--card{
+    width: 100%;
+    max-width: 270px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px #00000033;
+    box-shadow: 0px 1px 1px 0px #00000024;
+    box-shadow: 0px 1px 3px 0px #0000001F;
+    border-radius: 4px;
+
 }
 
 .team_container--card--img{
     width: 270px;
     height: 260px;
+
 }
 
 .team_container--card--name{
@@ -129,6 +172,8 @@
     letter-spacing: 3%;
     text-align: center;
     color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .team_container--card--profession{
